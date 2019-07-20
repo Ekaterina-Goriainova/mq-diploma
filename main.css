@@ -50,8 +50,8 @@ body {
 }
 
 .logo_text {
-  max-width: 100%;
-  width: 134px;
+  max-width: 210px;
+  width: 41.88%;
   fill: #ffffff;
   position: relative;
   z-index: 4;
@@ -61,13 +61,11 @@ body {
 }
 
 .title {
-  font-size: 29px;
+  font-size: 9.06vw;
   color: #ffffff;
   position: relative;
   letter-spacing: 2px;
   z-index: 4;
-  max-width: 100%;
-  width: 280px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 130px;
@@ -89,12 +87,13 @@ body {
 }
 
 .button {
-  max-width: 100%;
-  width: 280px;
-  height: 36px;
+  max-width: 310px;
+  max-height: 80px;
+  width: 87.5vw;
+  height: 11.25vw;
   background-color: #5C3DB2;
   border: none;
-  border-radius: 18px;
+  border-radius: 40px;
   text-transform: uppercase;
   cursor: pointer;
   position: relative;
@@ -110,17 +109,18 @@ body {
 .button_button {
   display: flex;
   align-items: center;
-  margin-left: 28%;
+  justify-content: center;
 }
 
 .button_logo {
-  height: 26px;
+  max-height: 46px;
+  height: 8.13vw;
   fill: #ffffff;
-  margin-right: 10px;
+  margin-right: 5%;
 }
 
 .button_text {
-  font-size: 8px;
+  font-size: 2.5vw;
   color: #ffffff;
   text-align: start;
 }
@@ -128,8 +128,6 @@ body {
 .text_button:last-child {
   font-family: OpenSans-Bold, Arial, sant-serif;
 }
-
-
 
 h2 {
   color: #E7E7E7;
@@ -239,7 +237,6 @@ h3 {
   margin: 0 6.25% 75px 6.25%;
 }
 
-
 .footer {
   background-color: #080A33;
   background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/sources/img/game_767.jpg);
@@ -269,10 +266,11 @@ h3 {
 
 .logo_zone {
   background-color: #5C3DB2;
-  border-radius: 18px;
-  max-width: 100%;
-  width: 72px;
-  height: 74px;
+  border-radius: 24%;
+  max-width: 134px;
+  max-height: 138px;
+  width: 22.5vw;
+  height: 23.13vw;
   position: relative;
   z-index: 3;
   margin-left: auto;
@@ -283,7 +281,8 @@ h3 {
 }
 
 .logo {
-  width: 60px;
+  max-width: 90px;
+  width: 18.75vw;
   fill: #ffffff;
   position: relative;
   z-index: 4;
@@ -315,34 +314,12 @@ h3 {
 
 
 @media (min-width: 641px) {
-  .logo_text {
-    width: 210px;
-  }
-
   .header_button, .footer_button {
     flex-wrap: wrap;
     flex-direction: row;
     max-width: 670px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .button {
-    width: 310px;
-    height: 80px;
-    border-radius: 40px;
-  }
-
-  .button_button {
-    display: flex;
-    align-items: center;
-    margin-left: 40px;
-  }
-
-  .button_logo {
-    height: 46px;
-    fill: #ffffff;
-    margin-right: 20px;
   }
 
   .button_text {
@@ -362,7 +339,7 @@ h3 {
     border: 1px solid transparent;
   }
 
-  .post_1,  .post_2  {
+  .post_1, .post_2  {
     position: relative;
     z-index: 0;
   }
@@ -390,16 +367,6 @@ h3 {
 
   .text_info {
      font-size: 24px;
-  }
-
-  .logo_zone {
-    border-radius: 26px;
-    width: 134px;
-    height: 138px;
-  }
-
-  .logo {
-    width: 90px;
   }
 
   .footer_title {
@@ -448,7 +415,7 @@ h3 {
 
   .post_1 {
     padding: 40px 3.9% 35px 37.76%;
-}
+  }
 
   .card_1 {
     max-width: 43%;
@@ -504,17 +471,16 @@ h3 {
 }
 
 
-
 @media (min-width: 961px) and (max-width: 1920px) {
-   .header {
-      background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/sources/img/football_1920.jpg);
-      padding-top: 40px;
-      padding-left: 9.9%;
-      padding-right: 9.9%;
+  .header {
+    background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/sources/img/football_1920.jpg);
+    padding-top: 40px;
+    padding-left: 9.9%;
+    padding-right: 9.9%;
   }
 
   .title {
-    font-size: 90px;
+    font-size: calc(24px + 3.44vw);
     max-width: 1540px;
     width: 100%;
     margin-top: 280px;
@@ -531,7 +497,12 @@ h3 {
     padding-bottom: 110px;
   }
 
+  h2, .sport > h2 {
+    font-size: 3.9vw;
+  }
+
   .sport > h2 {
+    font-size: calc(50px + 1.3vw);
     margin-top: 95px;
     margin-left: 9.9%;
   }
@@ -565,17 +536,18 @@ h3 {
     right: 6.25%;
   }
 
-
-
   .sport_info {
     display: flex;
     align-items: center;
+    position: relative;
   }
 
   .sport_foto {
+    width: 50%;
     margin-bottom: 0;
     padding-bottom: 0;
-
+    position: static;
+    font-size: 0;
   }
 
   .sport_info:nth-child(2n) > .sport_foto {
@@ -583,27 +555,23 @@ h3 {
   }
 
   .foto {
-    width: 960px;
+    width: 100%;
     margin-bottom: 0;
   }
 
   .number_zone {
-    width: 166px;
-    height: 154px;
-    left: calc(100% - 166px/2);
-    top: calc(50% - 154px/2);
-  }
-
-  .sport_info:nth-child(2n) > .sport_foto > .number_zone {
-    left: -83px;
+    width: 8.64vw;
+    height: 8vw;
+    left: calc(50% - 8.64vw/2);
+    top: calc(50% - 8vw/2);
   }
 
   .sport_text {
-    margin-left: 9%;
-    margin-right: 9%;
+    width: 50%;
+    padding-left: 9%;
+    padding-right: 9%;
+    box-sizing: border-box;
   }
-
-
 
   .footer {
     background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/sources/img/game_1920.jpg);
