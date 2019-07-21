@@ -1,13 +1,13 @@
 @font-face {
   font-family: OpenSans-Regular;
-  src: url(https://ekaterina-goriainova.github.io/mq-diploma/sources/fonts/OpenSans-Regular.woff);
+  src: url(https://ekaterina-goriainova.github.io/mq-diploma/fonts/OpenSans-Regular.woff);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: OpenSans-Bold;
-  src: url(https://ekaterina-goriainova.github.io/mq-diploma/sources/fonts/OpenSans-Bold.woff);
+  src: url(https://ekaterina-goriainova.github.io/mq-diploma/fonts/OpenSans-Bold.woff);
   font-weight: 400;
   font-style: normal;
 }
@@ -27,7 +27,7 @@ body {
 
 .header {
   background-color: #080A33;
-  background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/sources/img/football_767.jpg);
+  background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/images/football_767.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -238,7 +238,7 @@ h3 {
 
 .footer {
   background-color: #080A33;
-  background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/sources/img/game_767.jpg);
+  background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/images/game_767.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -353,7 +353,7 @@ h3 {
 
 @media (min-width: 641px) and (max-width: 960px) {
   .header {
-    background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/sources/img/football_1280.jpg);
+    background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/images/football_1280.jpg);
     padding-top: 35px;
     padding-left: 3.9%;
     padding-right: 3.9%;
@@ -424,7 +424,7 @@ h3 {
   }
 
    .footer {
-     background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/sources/img/game_1280.jpg);
+     background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/images/game_1280.jpg);
      padding-top: 125px;
      padding-left: 3.9%;
      padding-right: 3.9%;
@@ -472,7 +472,7 @@ h3 {
 
 @media (min-width: 961px) {
   .header {
-    background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/sources/img/football_1920.jpg);
+    background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/images/football_1920.jpg);
     padding-top: 40px;
     padding-left: 9.9%;
     padding-right: 9.9%;
@@ -573,7 +573,7 @@ h3 {
   }
 
   .footer {
-    background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/sources/img/game_1920.jpg);
+    background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/images/game_1920.jpg);
     padding-top: 220px;
     padding-bottom: 50px;
   }
