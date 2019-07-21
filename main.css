@@ -131,14 +131,14 @@ body {
 
 h2 {
   color: #E7E7E7;
-  font-size: 30px;
+  font-size: 9.7vw;
   margin-left: 6.25%;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
 .sport h2 {
-  font-size: 50px;
+  font-size: calc(32px + 5.6vw);
 }
 
 .card_1, .card_2 {
@@ -173,7 +173,7 @@ h2 {
 }
 
 .number {
-  font-size: 16px;
+  font-size: calc(12px + 1.3vw);
   font-family: OpenSans-Bold, Arial, sant-serif;
   border-bottom: 3px solid #5C3DB2;
   margin-right: 10px;
@@ -191,7 +191,7 @@ h2 {
 
 h3 {
   color: #C1C1C3;
-  font-size: 24px;
+  font-size: calc(16px + 2.5vw);
 }
 
 .text {
@@ -212,9 +212,8 @@ h3 {
 
 .number_zone {
   background-color: #5C3DB2;
-  max-width: 100%;
-  width: 70px;
-  height: 70px;
+  width: calc(37px + 10.29vw);
+  height: calc(37px + 10.29vw);
   position: absolute;
   z-index: 2;
   left: 6.25%;
@@ -225,7 +224,7 @@ h3 {
 }
 
 .number_number {
-  font-size: 16px;
+  font-size: calc(14px + 1.3vw);
   font-family: OpenSans-Bold, Arial, sant-serif;
   color: #C1C1C3;
   border-bottom: 3px solid #8E75C9;
@@ -289,7 +288,7 @@ h3 {
 }
 
 .footer_title {
-  font-size: 35px;
+  font-size: 10.94vw;
   color: #ffffff;
   text-align: center;
   position: relative;
@@ -299,7 +298,7 @@ h3 {
 }
 
 .footer_text {
-  font-size: 16px;
+  font-size: 5vw;
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
@@ -326,14 +325,6 @@ h3 {
     font-size: 16px;
   }
 
-  h2, .sport > h2 {
-    font-size: 75px;
-  }
-
-  h3 {
-    font-size: 36px;
-  }
-
   .sport {
     position: relative;
     border: 1px solid transparent;
@@ -349,32 +340,13 @@ h3 {
     z-index: 2;
   }
 
-  .number {
-    font-size: 22px;
-    border-bottom: 4px solid #5C3DB2;
-    margin-right: 12px;
-  }
-
   .text {
     font-size: 18px;
     line-height: 26px;
   }
 
-  .number_number {
-    font-size: 24px;
-    border-bottom: 5px solid #8E75C9;
-  }
-
   .text_info {
      font-size: 24px;
-  }
-
-  .footer_title {
-     font-size: 84px;
-  }
-
-  .footer_text {
-     font-size: 38px;
   }
 }
 
@@ -415,7 +387,7 @@ h3 {
 
   .post_1 {
     padding: 40px 3.9% 35px 37.76%;
-  }
+}
 
   .card_1 {
     max-width: 43%;
@@ -443,8 +415,6 @@ h3 {
   }
 
   .number_zone {
-    width: 116px;
-    height: 116px;
     left: 3.9%;
     bottom: 0;
   }
@@ -470,8 +440,37 @@ h3 {
   }
 }
 
+@media (min-width: 768px) {
+  .footer_title {
+     font-size: 84px;
+  }
 
-@media (min-width: 961px) and (max-width: 1920px) {
+  h2, .sport > h2 {
+    font-size: 75px;
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  .number {
+    font-size: 22px;
+    border-bottom: 4px solid #5C3DB2;
+    margin-right: 12px;
+  }
+
+  .number_number {
+    font-size: 24px;
+    border-bottom: 5px solid #8E75C9;
+  }
+
+  .footer_text {
+     font-size: 38px;
+  }
+}
+
+
+@media (min-width: 961px) {
   .header {
     background-image: url(https://ekaterina-goriainova.github.io/mq-diploma/sources/img/football_1920.jpg);
     padding-top: 40px;
@@ -480,7 +479,7 @@ h3 {
   }
 
   .title {
-    font-size: calc(24px + 3.44vw);
+    font-size: calc(40px + 2.65vw);
     max-width: 1540px;
     width: 100%;
     margin-top: 280px;
@@ -561,9 +560,9 @@ h3 {
 
   .number_zone {
     width: 8.64vw;
-    height: 8vw;
+    height: 8.64vw;
     left: calc(50% - 8.64vw/2);
-    top: calc(50% - 8vw/2);
+    top: calc(50% - 8.64vw/2);
   }
 
   .sport_text {
@@ -602,5 +601,68 @@ h3 {
 
   .footer_button {
     margin-bottom: 255px;
+  }
+}
+
+
+@media (min-width: 1921px) {
+  .title {
+    font-size: 90px;
+  }
+
+  h2, .sport > h2 {
+    font-size: 75px;
+  }
+
+  .sport {
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .post_1:nth-of-type(2n)::after, .post_2:nth-of-type(2n)::after {
+    background-color: #F4F3F8;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    right: -50%;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .post_1:nth-of-type(3n)::after {
+    background-color: #5C3DB2;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    right: -50%;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .post_2:nth-of-type(3n)::after {
+    background-color: #080A33;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    right: -50%;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .sport_info {
+    width: 2048px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .number_zone {
+    width: 166px;
+    height: 166px;
+    left: calc(50% - 166px/2);
+    top: calc(50% - 166px/2);
   }
 }
