@@ -113,10 +113,20 @@ p {
   margin-bottom: 14px;
 }
 
+.button_button {
+  width: 35.5vw;
+  max-width: 217px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .button_logo {
   height: 60%;
+  width: 7.82vw;
+  max-width: 43px;
   fill: #ffffff;
-  margin-right: 5%;
+  margin-right: 7%;
 }
 
 .button_text {
