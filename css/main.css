@@ -17,12 +17,12 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: OpenSans-Bold, Arial, sant-serif;
+  font-family: OpenSans-Bold, Arial, sans-serif;
   text-transform: uppercase;
 }
 
 p {
-  font-family: OpenSans-Regular, Arial, sant-serif;
+  font-family: OpenSans-Regular, Arial, sans-serif;
 }
 
 .header {
@@ -130,7 +130,7 @@ p {
 }
 
 .button_text {
-  font-family: OpenSans-Bold, Arial, sant-serif;
+  font-family: OpenSans-Bold, Arial, sans-serif;
   font-size: 2.5vw;
   color: #ffffff;
   text-align: start;
@@ -138,7 +138,7 @@ p {
 }
 
 .text_button:first-child {
-  font-family: OpenSans-Regular, Arial, sant-serif;
+  font-family: OpenSans-Regular, Arial, sans-serif;
 }
 
 h2 {
@@ -192,7 +192,7 @@ h3 {
 
 .number {
   font-size: calc(14px + 1.3vw);
-  font-family: OpenSans-Bold, Arial, sant-serif;
+  font-family: OpenSans-Bold, Arial, sans-serif;
   border-bottom: 3px solid #5C3DB2;
   margin-right: 10px;
 }
@@ -238,7 +238,7 @@ h3 {
 
 .number_number {
   font-size: calc(14px + 1.3vw);
-  font-family: OpenSans-Bold, Arial, sant-serif;
+  font-family: OpenSans-Bold, Arial, sans-serif;
   color: #C1C1C3;
   border-bottom: 3px solid #8E75C9;
   padding-bottom: 3px;
