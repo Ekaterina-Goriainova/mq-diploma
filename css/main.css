@@ -327,6 +327,12 @@ h3 {
 
 
 @media (min-width: 641px) {
+  .logo_text:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
   .header_button, .footer_button {
     flex-wrap: wrap;
     flex-direction: row;
@@ -337,6 +343,21 @@ h3 {
 
   .button_text {
     font-size: 16px;
+  }
+
+  .button:hover {
+    background-color: #ffffff;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+
+  .button:hover .button_logo {
+    fill: #5C3DB2;
+  }
+
+  .button:hover .button_text {
+    color: #5C3DB2;
   }
 
   .sport {
@@ -361,6 +382,14 @@ h3 {
 
   .text_info {
      font-size: 24px;
+  }
+  
+  .logo_zone:hover {
+    background-color: #ffffff;
+  }
+
+  .logo_zone:hover .logo{
+    fill: #5C3DB2;
   }
 }
 
